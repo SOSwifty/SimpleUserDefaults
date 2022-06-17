@@ -1,7 +1,6 @@
 import Foundation
 import Combine
 
-@available(macOS 10.15, iOS 13.0, *)
 @propertyWrapper
 struct ObjectStorage<Value: Codable> {
     let key: String
@@ -33,7 +32,6 @@ struct ObjectStorage<Value: Codable> {
     }
 }
 
-@available(macOS 10.15, iOS 13.0, *)
 @propertyWrapper
 struct OptionalObjectStorage<Value: Codable> {
     let key: String

@@ -1,7 +1,6 @@
 import Foundation
 import Combine
 
-@available(macOS 10.15, iOS 13.0, *)
 @propertyWrapper
 struct ValueStorage<Value: Storable> {
     let key: String
@@ -29,7 +28,6 @@ struct ValueStorage<Value: Storable> {
     }
 }
 
-@available(macOS 10.15, iOS 13.0, *)
 @propertyWrapper
 struct OptionalValueStorage<Value: Storable> {
     let key: String
