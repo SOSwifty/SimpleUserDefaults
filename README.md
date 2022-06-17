@@ -1,2 +1,3 @@
 # SimpleUserDefaults
-A Simple Wrapper for storing user defaults 
+
+A description of this package.
